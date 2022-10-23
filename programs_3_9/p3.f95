@@ -1,0 +1,5 @@
+PROGRAM prog_3
+    OPEN (UNIT=66, FILE="data_1", STATUS="OLD",ACTION="WRITE", POSITION="APPEND")
+    WRITE (UNIT=66, FMT=*) "witaj"
+    STOP
+END PROGRAM prog_3
